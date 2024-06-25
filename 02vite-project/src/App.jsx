@@ -5,6 +5,7 @@ import './App.css'
 import Card from './Card';
 import imges from './imges/david-cerini-Gh1PqlmwmmM-unsplash.jpg';
 
+
 function App() {
   
 
@@ -15,7 +16,11 @@ function App() {
      <div className="img">
 
 
-       <img src={imges} alt="abc" />      
+       <img src={imges} alt="abc" />   
+
+
+        
+          
 
      </div>
     </>

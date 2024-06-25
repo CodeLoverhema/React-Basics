@@ -4,7 +4,7 @@
   list-style: none;
   box-sizing: border-box;
   text-decoration: none;
-
+  
 }
 
 
@@ -33,19 +33,37 @@ h1{
 }
 .links li a{
   color:#A593F5;
-
- 
-
-
+  
+  
+  
+  
 }
 .img img{
-  border: 2px solid red;
-  height: 300px;
-  width: 300px;
+  border: 2px solid #1C7BED;
+  margin-left: 1rem;
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  margin-top:1.5rem;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.content h2{
-  border: 2px solid red;
-margin-top: 5rem;
+h2{
+  /* border: 2px solid red; */
+  position: absolute;
+color: #1C7BED;
+margin-top:3.5rem;
+margin-left: 2.5rem;
+padding: 1.5rem;
+z-index: 1;
 }
+p{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 19rem;
+    margin-top:5.8rem;
+    padding:2.5rem;
+    z-index: 1;
+    /* flex-wrap: wrap; */
+    color:white;
+    }
