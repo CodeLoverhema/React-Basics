@@ -45,3 +45,7 @@ h1{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.content h2{
+  border: 2px solid red;
+margin-top: 5rem;
+}
